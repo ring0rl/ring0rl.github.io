@@ -1,5 +1,5 @@
 ---
-title: 红蓝对抗-Office ASR绕过
+title: 红蓝对抗-Office ASR Bypass
 date: 2022-10-30
 categories: [红蓝对抗]
 tags: [红蓝对抗, Windows, ASR, Bypass]
@@ -13,7 +13,7 @@ tags: [红蓝对抗, Windows, ASR, Bypass]
 
 更加详细的细节可以在这个地方查看[https://learn.microsoft.com/zh-cn/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide](https://learn.microsoft.com/zh-cn/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide)(当然也可以点段首的加粗字体跳转)
 
- 这些规则中的许多规则可以组合使用，当然我们可以单独绕过某一规则，但它仍然有可能被另一规则所阻止。本文演示的是在**Office**下的绕过。 
+ 这些规则中的许多规则可以组合使用，当然我们可以单独绕过某一规则，但它仍然有可能被另一规则所阻止。本文演示的是在**Office**下的Bypass。 
 
 ## 0x01 Block Office Processes
 
