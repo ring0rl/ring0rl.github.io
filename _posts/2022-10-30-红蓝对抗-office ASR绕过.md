@@ -79,7 +79,7 @@ ASR规则实际上是基于某种黑名单的来实现的，我们可以尝试�
 
 因此我们可以大胆猜测这里可能会有使用基于命令行的执行的办法，笔者在这里使用了[LOLBAS项目](https://lolbas-project.github.io/#)，经过简单的测试，发现**[MSBuild](https://lolbas-project.github.io/lolbas/Binaries/Msbuild/)**没有被拦截(其他的可以自行测试)。
 
-[MSBuild](https://lolbas-project.github.io/lolbas/Binaries/Msbuild/)可以从.xml或.csproj文件执行内联C#代码。可以在这里去查看**MSBuild**的结构[[MSBuild 项目文件架构引用 - MSBuild | Microsoft Learn](https://learn.microsoft.com/zh-cn/visualstudio/msbuild/msbuild-project-file-schema-reference?view=vs-2022)]
+[MSBuild](https://lolbas-project.github.io/lolbas/Binaries/Msbuild/)可以从.xml或.csproj文件执行内联C#代码。可以在这里去查看**MSBuild**的结构[https://learn.microsoft.com/zh-cn/visualstudio/msbuild/msbuild-project-file-schema-reference?view=vs-2022](https://learn.microsoft.com/zh-cn/visualstudio/msbuild/msbuild-project-file-schema-reference?view=vs-2022)
 
 我们可以通过以下方法去实现：
 
