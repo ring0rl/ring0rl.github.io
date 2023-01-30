@@ -10,7 +10,7 @@
 
 *2022/11/03更新* --- [红蓝对抗-命令行欺骗](https://ring0rl.github.io/posts/%E7%BA%A2%E8%93%9D%E5%AF%B9%E6%8A%97-%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%AC%BA%E9%AA%97/)
 
-
+*2023/01/30更新* --- [域内渗透思路](https://ring0rl.github.io/posts/%E5%9F%9F%E5%86%85%E6%B8%97%E9%80%8F%E6%80%9D%E8%B7%AF/)
 
 
 
