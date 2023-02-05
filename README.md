@@ -12,7 +12,9 @@
 
 *2023/01/30更新* --- [域内渗透思路](https://ring0rl.github.io/posts/%E5%9F%9F%E5%86%85%E6%B8%97%E9%80%8F%E6%80%9D%E8%B7%AF/)
 
+*2023/02/05更新* --- [利用MSSQL CLR 实现不落地命令执行](https://ring0rl.github.io/posts/%E5%88%A9%E7%94%A8MSSQL-CLR-%E5%AE%9E%E7%8E%B0%E4%B8%8D%E8%90%BD%E5%9C%B0%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C/)
 
+ 
 
 ### 欢迎与我联系：ring0rl@163.com
 
