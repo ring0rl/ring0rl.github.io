@@ -14,6 +14,8 @@
 
 *2023/02/05更新* --- [利用MSSQL CLR 实现不落地命令执行](https://ring0rl.github.io/posts/%E5%88%A9%E7%94%A8MSSQL-CLR-%E5%AE%9E%E7%8E%B0%E4%B8%8D%E8%90%BD%E5%9C%B0%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C/)
 
+*2023/02/27更新* --- [进程注入(一)](https://ring0rl.github.io/posts/%E8%BF%9B%E7%A8%8B%E6%B3%A8%E5%85%A5(%E4%B8%80)/)
+
  
 
 ### 欢迎与我联系：ring0rl@163.com
