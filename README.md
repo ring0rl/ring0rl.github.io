@@ -16,6 +16,8 @@
 
 *2023/02/27更新* --- [进程注入(一)](https://ring0rl.github.io/posts/%E8%BF%9B%E7%A8%8B%E6%B3%A8%E5%85%A5(%E4%B8%80)/)
 
+*2023/02/28更新* --- [进程注入(二)](https://ring0rl.github.io/posts/%E8%BF%9B%E7%A8%8B%E6%B3%A8%E5%85%A5(%E4%BA%8C)/)
+
  
 
 ### 欢迎与我联系：ring0rl@163.com
