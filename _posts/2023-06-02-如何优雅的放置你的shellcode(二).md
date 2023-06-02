@@ -23,7 +23,7 @@ tags: [红蓝对抗, pe, shellcode]
 
 ![](https://raw.githubusercontent.com/ring0rl/blog_pic/main/2023-06-02/3.png)
 
-导入之后，我们的shellcode便会以二进制展示出来
+导入之后，我们的shellcode便会以二进制形式展示出来
 
 ![](https://raw.githubusercontent.com/ring0rl/blog_pic/main/2023-06-02/4.png)
 
@@ -72,7 +72,7 @@ int main() {
 	if (pPayloadAddress == NULL) {
 		printf("LockResource Failed With Error : %d \n", GetLastError());
 		return -1;
-}
+	}
 
 	// 在.rsrc区段获取shellcode的大小
 	sPayloadSize = SizeofResource(NULL, hRsrc);
@@ -92,20 +92,20 @@ int main() {
 编译并运行上述代码后，会把shellcode地址及其大小打印出来。但是这个地址位于 `.rsrc` 区段，这个区段是只读的，我们任何更改或编辑其中数据的操作都会导致访问错误。想要编辑shellcode，我们只能分配一个与shellcode大小相同的临时缓冲区并把shellcode复制过来，然后我们对这个缓冲区进行操作即可。
 
 ```c
-	// 分配内存
-	PVOID pTmpBuffer = HeapAlloc(GetProcessHeap(), 0, sPayloadSize);
-	if (pTmpBuffer != NULL) {
-		memcpy(pTmpBuffer, pPayloadAddress, sPayloadSize);
-	}
+// 分配内存
+PVOID pTmpBuffer = HeapAlloc(GetProcessHeap(), 0, sPayloadSize);
+if (pTmpBuffer != NULL) {
+	memcpy(pTmpBuffer, pPayloadAddress, sPayloadSize);
+}
 
-	printf("new Address is : 0x%p \n", pTmpBuffer);
+printf("new Address is : 0x%p \n", pTmpBuffer);
 ```
 
 资源中的内存情况
 
 ![](https://raw.githubusercontent.com/ring0rl/blog_pic/main/2023-06-02/6.png)
 
-临时缓冲区内存情况
+临时缓冲区中的内存情况
 
 ![](https://raw.githubusercontent.com/ring0rl/blog_pic/main/2023-06-02/7.png)
 
