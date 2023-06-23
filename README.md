@@ -20,7 +20,11 @@
 
 *2023/06/01更新* --- [如何优雅的放置你的shellcode(一)](https://ring0rl.github.io/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E6%94%BE%E7%BD%AE%E4%BD%A0%E7%9A%84shellcode(%E4%B8%80)/)
 
- 
+*2023/06/02更新* --- [如何优雅的放置你的shellcode(二)](https://ring0rl.github.io/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E6%94%BE%E7%BD%AE%E4%BD%A0%E7%9A%84shellcode(%E4%BA%8C)/)
+
+*2023/06/22更新* --- [本地进程DLL注入](https://ring0rl.github.io/posts/%E6%9C%AC%E5%9C%B0%E8%BF%9B%E7%A8%8BDLL%E6%B3%A8%E5%85%A5/)
+
+*2023/06/23更新* ---[远程DLL注入](https://ring0rl.github.io/posts/%E8%BF%9C%E7%A8%8BDLL%E6%B3%A8%E5%85%A5/)
 
 ### 欢迎与我联系：ring0rl@163.com
 
